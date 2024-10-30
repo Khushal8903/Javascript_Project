@@ -1,0 +1,48 @@
+nav{
+	height: 70px;
+	background:#6262c3;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+.index{
+	margin-left: 7%;
+	text-decoration: none;
+	color: #FFD700;
+	font-size: 21px;
+	padding: 10px;
+
+	}
+
+.index:hover {
+	background: #f1f6aa;
+	color: black;
+	
+	/* border: 1px solid black; */
+	border-radius: 10px;
+	/* padding: 4px; */
+}
+
+div>img{
+	width: 100%;
+}
+
+#div3 {
+	width: 15%;
+	margin-top: 1%;
+	height: 40px;
+}
+footer{
+	margin-top: 2%;
+	text-align: center;
+	background:#6262c3;
+	padding: 15px;
+	color: white;
+}
+
+.btnback a{
+    color: #212ff5;
+    text-decoration: none;
+    background-color: #c2c1c1;
+}

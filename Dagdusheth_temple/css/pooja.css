@@ -1,0 +1,59 @@
+/*.bgimg>img{
+    
+    height: 700px;
+}*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+
+}
+.card1{
+    
+    border: 1px solid black;
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+}
+.button1 {
+  
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-bottom: 3%;
+    background-color:  #FFD700 ;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+   
+  }
+.button1:hover{
+    background: #d3b717;
+
+}
+
+.pooja{
+    margin-top: 3%;
+}
+.schedule{
+    font-size: 50px;
+}
+.shedule-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+
+}
+#schedule1{
+    /* width: 30%;
+    height: 30%; */
+    margin: 20px;
+   
+   
+}
+
+
+

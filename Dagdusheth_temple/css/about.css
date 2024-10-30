@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.lord{
+    width: 40%;
+    height: 40%;
+    margin: 20px;
+}
+
+.button1 {
+  
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color:  #FFD700 ;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+   
+  }
+

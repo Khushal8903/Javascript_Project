@@ -1,0 +1,120 @@
+
+.oreo>img{
+    height: 90px;
+    width: 90px;
+}
+.Appointment {
+   display: flexbox;
+}
+
+.booknow{
+    position: relative;
+    margin-top: -140px; 
+    @media (max-width: 575.98px) { margin-top: 0px; }
+}
+
+
+.hh{
+
+    font-size: 40px; font-weight: 300;
+    
+    @media (max-width: 575.98px) {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+  }
+.mh{
+
+    @media (max-width: 575.98px) {
+        font-size: 15px;
+       
+    }
+}
+
+
+
+img {
+    max-width: 100%;
+    border-radius: 1px;
+
+    vertical-align: middle;
+    border-style: none;
+}
+
+ 
+
+div {
+    display: block;
+    /* unicode-bidi: isolate; */
+
+} 
+.section{ 
+
+    a{
+       
+        text-decoration: none;
+        color: #f96332;
+    }
+    
+}
+
+.container{
+    h2{
+        padding-top: 15px;
+    }
+}
+.appoint{
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -30px;
+    /* padding-bottom: 2px; */
+    z-index: 10;
+    background: #d8d8db
+    
+}
+.wrapper {
+    h3 {
+  color: #fff;
+  /* font-size: 9; */
+  /* text-transform: uppercase; */
+  /* font-weight: 700; */
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(to left,#262a2e 50%, #35a3f1 30%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclipReverse 1s normal infinite;
+  display: inline-block;
+}
+}
+
+@keyframes textclipReverse {
+    0% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+.slider_form {
+    position: relative;
+    padding: 20px 5px;
+    background: #c2c1c1;
+    border-radius: .25rem;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.07);
+    margin: 0 auto;
+}
+.btnback a{
+    color: #212ff5;
+    text-decoration: none;
+    background-color: #c2c1c1;
+}
